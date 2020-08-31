@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(img/bg.jpeg);
+    background-repeat: no-repeat;
+    
+}
+
+a {
+   top: 0;
+    display: flex;
+    
+    padding: 15px 80px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+    justify-content: space-evenly;
+    
+}
+
+a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+
+  
+
+.oper ul{
+    list-style: none;
+}
+ li {
+     list-style-type: none;
+     color: #2196f3;
+    }
+
+     .box_m{
+         display:flex;
+         justify-content: space-evenly;
+        } 
+
+
+
+
